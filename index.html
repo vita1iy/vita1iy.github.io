@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Personal Page</title>
+    <style>
+      body {
+        color: #333;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+      }
+      img {
+        border-radius: 50%;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      }
+      .profile-picture {
+        width: 200px;
+        height: 200px;
+      }
+      h1 {
+        font-weight: normal;
+        margin-top: 20px;
+        font-size: 2.5em;
+        text-shadow: 1px 1px #aaaaaa;
+      }
+      .about-me {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 20px;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 2px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+      .skills-container {
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.2em;
+        margin-top: 10px;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 2px;
+        border-radius: 10px;
+      }
+      .button {
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline;
+        font-size: 1.2em;
+        border-radius: 5px;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.3s ease;
+        text-shadow: 1px 1px #aaaaaa;
+      }
+      .linkedin-button {
+        background-color: #0077B5;
+      }
+      .github-button {
+        background-color: #333;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .button:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="picture.jpg" alt="Profile Picture" class="profile-picture">
+      <h1>Vitaliy Luchko</h1>
+      <div class="skills-container">
+        <p>Skills: Python, SQL, R, HTML, CSS, STATA
+          </p>
+      <div class="about-me">
+        <p>Aspring Data Scientist 
+          </p>
+      </div>
+      <a href="https://www.linkedin.com/in/vitaliy-luchko-6b1522189/" class="button linkedin-button">LinkedIn</a>
+      <a href="https://github.com/vita1iy" class="button github-button">Github</a>
